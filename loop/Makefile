@@ -1,4 +1,4 @@
-objectsC = scanfEg1 scanfEg2 scanfEg3 scanfEg4 scanfEg5 scanfEg6 scanfEg7 scanfEg8 scanfEg9 scanfEg10 scanfEg11 scanfEg12 scanfEg13
+objectsC = eg1 eg2 eg3 eg4 eg5 eg6 eg7 eg8 eg9 eg10
 objectsCPP = 
 
 CC=gcc

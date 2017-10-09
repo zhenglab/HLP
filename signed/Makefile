@@ -1,4 +1,4 @@
-objectsC = scanfEg1 scanfEg2 scanfEg3 scanfEg4 scanfEg5 scanfEg6 scanfEg7 scanfEg8 scanfEg9 scanfEg10 scanfEg11 scanfEg12 scanfEg13
+objectsC = sign_unsign
 objectsCPP = 
 
 CC=gcc

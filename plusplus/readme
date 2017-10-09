@@ -1,0 +1,6 @@
+http://bbs.csdn.net/topics/330189207
+
+++i => ++前置：i自增1后再参与其它运算；
+i++ => ++后置：i参与运算后，i的值再自增1。
+
+http://blog.csdn.net/frank_jb/article/details/52244318
