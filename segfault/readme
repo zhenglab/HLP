@@ -1,0 +1,6 @@
+man signal | grep SIGSEGV
+man signal | grep SIGBUS
+
+SIGBUS与SIGSEGV信号的一般区别如下:
+1) SIGBUS(Bus error)意味着指针所对应的地址是有效地址，但总线不能正常使用该指针。通常是未对齐的数据访问所致。
+2) SIGSEGV(Segment fault)意味着指针所对应的地址是无效地址，没有物理内存对应该地址。
