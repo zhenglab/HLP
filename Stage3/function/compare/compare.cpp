@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-    cout<<max(3,4);
-    return 0;
+  cout<<max(3,4);
+  return 0;
 }
 /*
 int main(int argc, char* argv[])

@@ -8,11 +8,12 @@ void exchange(int a, int b)
     {
 	p=a;a=b;b=p;
     }
+    cout<<"exchange: "<<a<<" "<<b<<endl;
 }
 int main()
 {
     cin>>a>>b;
     exchange(a,b);
-    cout<<a<<" "<<b<<endl;
+    cout<<"main: "<<a<<" "<<b<<endl;
     return 0;
 }
