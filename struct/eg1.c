@@ -10,22 +10,22 @@ struct student
 }boy,people = {"yyy", 'y', '0'};   
 int main()
 {
-  printf("%s\n%c\n%c\n", people.name, people.age, people.gender);
+  printf("%s\n%c\n%c\n\n", people.name, people.age, people.gender);
   struct student person = {"xxx", 'x', 'x'};
-  printf("%s\n%c\n%c\n", person.name, person.age, person.gender);
+  printf("%s\n%c\n%c\n\n", person.name, person.age, person.gender);
   //对boy进行初始化
   strcpy(boy.name, "Jack");
   boy.age = 24;
   boy.gender = 'm';
-  printf("%s\n%d\n%c\n", boy.name, boy.age, boy.gender);
+  printf("%s\n%d\n%c\n\n", boy.name, boy.age, boy.gender);
   //对girl和girl1进行定义及初始化
   struct student girl,girl1;
   strcpy(girl.name, "Alisa");
   girl.age = 24;
   girl.gender = 'w';
-  printf("%s\n%c\n%c\n", girl.name, girl.age, girl.gender);
+  printf("%s\n%d\n%c\n\n", girl.name, girl.age, girl.gender);
   //结构体变量可以直接赋值给相同类型结构体
   girl1 = girl;
-  printf("%s\n%c\n%c\n", girl1.name, girl1.age, girl1.gender);
+  printf("%s\n%d\n%c\n\n", girl1.name, girl1.age, girl1.gender);
   return 0;
 }//结构体变量定义及初始化

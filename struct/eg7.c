@@ -13,5 +13,10 @@ int main()
   int b = 5;
   M c = a + b;
   printf("%d + %d = %d\n", a, b, c);
+  
+  STU stu;
+  stu.age=20;
+  strcpy(stu.name,"Jack");
+  printf("%s is %d years old\n",stu.name,stu.age);
   return 0;
 }//typedef重命名

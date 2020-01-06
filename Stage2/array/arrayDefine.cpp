@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//#define n 10
 int main()
 {
     //int n=10;

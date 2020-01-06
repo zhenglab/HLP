@@ -12,6 +12,7 @@ void exchange(int a, int b)
 }
 int main()
 {
+    cout<<"Init: "<<a<<" "<<b<<endl;
     cin>>a>>b;
     exchange(a,b);
     cout<<"main: "<<a<<" "<<b<<endl;

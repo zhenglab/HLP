@@ -12,7 +12,7 @@ void swap()
 int main()
 {
   int *p = func(), n, m;
-  printf("c.biancheng.net\n");
+  printf("vision.ouc.edu.cn\n");
   m=4;
   n=6;
   swap();

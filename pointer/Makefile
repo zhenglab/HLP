@@ -1,5 +1,5 @@
-objectsC = eg1 eg3 eg4 eg5 eg6 eg7 eg8 eg9 eg10 eg11 eg12 eg13 eg14 eg15 eg16 eg17
-objectsCPP = eg2
+objectsC = eg1 eg3 eg4 eg5 eg6 eg6plus eg6plusplus eg7 eg8 eg9 eg10 eg11 eg12 eg13 eg14 eg15 eg16 eg17
+objectsCPP = eg2 eg2plus
 
 CC=gcc
 CPP=g++

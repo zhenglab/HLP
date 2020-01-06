@@ -8,6 +8,7 @@ int main()
 	cin>>n;
 	if(n==0)
 	    continue;//continue break
+	cout<<"jumping"<<endl;
     }
     return 0;
 

@@ -20,7 +20,7 @@ int main()
   stu.birth.year = 1991;
   stu.birth.month = 3;
   stu.birth.day = 21;
-  printf("His name is %s\nHe births in %d.%d.%d\n", stu.name, 
-         stu.age, stu.birth.year, stu.birth.month, stu.birth.day);
+  printf("His name is %s\nHe is %d years old\nHe was born on %d.%d.%d\n", 
+	  stu.name, stu.age, stu.birth.year, stu.birth.month, stu.birth.day);
   return 0;
 }//结构体嵌套

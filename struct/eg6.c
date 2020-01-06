@@ -21,7 +21,7 @@ int main()
   p->birth.year = 1991;
   p->birth.month = 3;
   p->birth.day = 21;
-  printf("His name is %s\nHe births in %d.%d.%d\n", p->name, 
-         p->age, p->birth.year, p->birth.month, p->birth.day);
+  printf("His name is %s\nHe is %d years old\nHe was born on %d.%d.%d\n", 
+	  p->name, p->age, p->birth.year, p->birth.month, p->birth.day);
   return 0;
 }//结构体指针

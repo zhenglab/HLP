@@ -1,8 +1,22 @@
 #include <stdio.h>
 int main()
 {
-  char *str = "Hello World!";
-  str = "I love C!";  //C
-  str[3] = 'P';  //W
-  return 0;
+    char *str = "http://vision.ouc.edu.cn";
+    int len = strlen(str), i;
+    
+    printf("%s\n", str); 
+    
+    for(i=0; i<len; i++)
+    {
+	printf("%c", *(str+i));
+    }
+    printf("\n");
+
+    for(i=0; i<len; i++)
+    {
+	printf("%c", str[i]);
+    }
+    printf("\n");
+   
+    return 0;
 }

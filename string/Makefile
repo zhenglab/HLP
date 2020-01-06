@@ -1,4 +1,4 @@
-objectsC =
+objectsC = eg3C eg4C
 objectsCPP = eg1 eg2 eg3 eg4
 
 CC=gcc

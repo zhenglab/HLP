@@ -19,6 +19,7 @@ int main()
     cout<<-++x<<endl;
 //    cout<<(-x)++<<endl;
 //    cout<<++x++<<endl;
+    //++ -- 只能用于变量
 
     cout<<endl;
 
@@ -29,6 +30,18 @@ int main()
     cout<<c<<" "<<(c++)+(++c)<<" "<<endl;
     cout<<(d=f++)+(e=f)<<endl;
     cout<<f<<" "<<d<<" "<<e<<endl;
+
+    cout<<endl;
+    
+    int m=3,n=4;
+    int p=m++ + m++;
+    int q=++n + ++n;
+    cout<<m<<" "<<n<<" "<<p<<" "<<q<<endl;
+    m=3;
+    n=4;
+    p=m++ + m++ + m++;
+    q=++n + ++n + ++n;
+    cout<<m<<" "<<n<<" "<<p<<" "<<q<<endl;
 
     return 0;
 }

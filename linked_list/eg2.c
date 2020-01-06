@@ -21,7 +21,7 @@ struct student *create()
   
   p1 = p2 = (struct student *)malloc(LEN);
   
-  printf("please input num and score.\n");
+  printf("please input num and score (num,score)\n");
   scanf("%ld,%f", &p1->num, &p1->score);
   
   while(p1->num != 0)
@@ -33,7 +33,7 @@ struct student *create()
         p2->next = p1;
       p2 = p1;
       p1 = (struct student *)malloc(sizeof(struct student));
-      printf("please input num and score.\n");
+      printf("please input num and score (num,score)\n");
       scanf("%ld,%f", &p1->num, &p1->score);
     }
   p2->next = NULL;

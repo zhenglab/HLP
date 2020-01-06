@@ -8,8 +8,8 @@ int main()
     while(i<=100)
     {
 	sum=sum+i;
-	i++;//notice
 	cout<<i<<" "<<sum<<endl;
+	i++;//notice
     }
     cout<<sum<<endl;
     //cout<<endl<<i<<endl;

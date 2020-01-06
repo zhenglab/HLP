@@ -12,7 +12,7 @@ struct student *add_link(struct student *head)
   struct student *temp = (struct student*)malloc(LEN);
   printf("input ID:\n");
   scanf("%d", &temp->ID);
-  printf(" input name:\n");
+  printf("  input name:\n");
   scanf("%s", temp->name);
   temp->next = NULL;  //可以省略
   temp->next = head->next;
@@ -47,8 +47,9 @@ int main()
   int i = 0;
   for(i = 0; i < 5; i++)
     head = add_link(head);    //头插插入链表调用
-  show_link(head);
   printf("\n");
+  show_link(head);
+  printf("\n\n");
   head = delete_head(head); //头删删除链表调用
   show_link(head);
   return 0;

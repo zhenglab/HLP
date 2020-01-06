@@ -1,5 +1,5 @@
-objectsC = printfEg scanfEg scanfCh getcharCh scanfStr getsStr scanfAdv getcharEOF
-objectsCPP = coutEg cinEg cinInt cinStr ScanfCoutMix CoutScanfMix cinCh cingetCh getcharChCPP
+objectsC = printfEg scanfEg scanfInt scanfCh getcharCh scanfStr getsStr scanfAdv getcharEOF
+objectsCPP = cincout coutEg cinEg cinInt cinStr ScanfCoutMix CoutScanfMix cinCh cingetCh getcharChCPP
 
 CC=gcc
 CPP=g++

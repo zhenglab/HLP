@@ -9,7 +9,7 @@ int main()
     {
 	cout<<i<<endl;
     }
-    cout<<"*****";
+    cout<<"****";
     cout<<endl<<i<<endl;
     
     return 0;
