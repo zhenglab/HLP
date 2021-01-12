@@ -1,0 +1,11 @@
+total 152
+-rwxr-xr-x  1 zhenghaiyong  _lpoperator  21376  9 15 10:54 hello
+-rwxr-xr-x  1 zhenghaiyong  _lpoperator   8328  9 15 10:54 hello.c
+-rw-r--r--  1 zhenghaiyong  _lpoperator      0 11 17 11:27 ls-l
+-rwxr-xr-x  1 zhenghaiyong  _lpoperator  12556 11 10 11:57 sizeofeg
+-rw-r--r--  1 zhenghaiyong  _lpoperator    485 11 10 11:57 sizeofeg.c
+-rw-r--r--  1 zhenghaiyong  _lpoperator    186 11 10 09:34 stringeg.c
+-rw-r--r--  1 zhenghaiyong  _lpoperator    225 11 10 09:46 stringeg.cpp
+-rw-r--r--  1 zhenghaiyong  _lpoperator      9 11 17 11:26 test
+-rw-r--r--  1 zhenghaiyong  _lpoperator      9 11 17 11:26 test2
+-rw-r--r--  1 zhenghaiyong  _lpoperator     89  9 15 10:54 tmp.c

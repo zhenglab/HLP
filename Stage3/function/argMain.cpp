@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
       cout<<"\t"<<argv[0]<<" arg1 arg2"<<endl;
       return 7;
     }
-  cout<<max(atoi(argv[1]),atoi(argv[2]));
+  cout<<max(atoi(argv[1]),atoi(argv[2]))<<endl;
 
   return 0;   
 }   
