@@ -14,7 +14,7 @@ int main()
   if(subscript<0){
     printf("%d isn't in the array.\n", num);
   }else{
-    printf("%d is in the array, and it's subscript is %d.\n", num, subscript);
+    printf("%d is in the array, and its subscript is %d.\n", num, subscript);
   }
   return 0;
 }
