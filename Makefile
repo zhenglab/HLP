@@ -1,4 +1,4 @@
-objectsC = tmp 
+objectsC = hello 
 objectsCPP = 
 
 CC=gcc
