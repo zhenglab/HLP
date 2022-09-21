@@ -1,0 +1,19 @@
+C语言编译过程四个步骤：
+1、预处理preprocess
+gcc -E hello.c -o hello.i
+	a.将所有的#define删除，并且展开所有的宏定义。（字符替换）
+	b.处理所有的条件编译指令，#ifdef #ifndef #endif等。（#开头）
+	c.条件语句中符合判断条件的会保留，不符合的会删除。
+	d.删除所有注释。
+	e.添加行号和文件标示，为调试编译错误等准备。
+	f.保留#pragma编译器指令，因为编译器需要使用它们。
+2、编译compile
+gcc -S hello.i -o hello.s
+	检查错误，生成汇编文件。实质是把高级语言编译成机器可识别的汇编语言。
+3、汇编assemble
+gcc -c hello.s -o hello.o
+	将汇编文件生成二进制文件
+	vim hello.o (:%!xxd)
+4、链接link
+gcc hello.o -o hello
+	把目标文件与所需要的附加目标文件（如静态链接库、动态链接库）链接起来成为可执行文件
