@@ -6,7 +6,7 @@ int main()
     
   /* scanf("%s",string); 不能接收空格符 */
   scanf("%[^\n]",string);
-  //  scanf("%[^abc]",string);
+  //scanf("%[abc]",string);
   printf("%s\n",string);
   //%[] 扫描字符集合
 
