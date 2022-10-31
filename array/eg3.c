@@ -18,7 +18,7 @@ int main()
     sum=0;
   }
   average =(v[0]+v[1]+v[2])/3;
-  printf("Math: %d\nC Languag: %d\nEnglish: %d\n", v[0], v[1], v[2]);
+  printf("Math: %d\nC Language: %d\nEnglish: %d\n", v[0], v[1], v[2]);
   printf("Total:%d\n", average);
   return 0;
 }

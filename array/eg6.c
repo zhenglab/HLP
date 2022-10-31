@@ -9,9 +9,9 @@ int main()
     if(nums[i] >= num){
       if(nums[i] == num){
         subscript = i;
-      }
+      	}
       break;
-        }
+      }
   }
   if(subscript<0){
     printf("%d isn't in the array.\n", num);
